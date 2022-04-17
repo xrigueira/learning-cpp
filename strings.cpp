@@ -17,5 +17,11 @@ int main() {
     myString[0] = 'J'; // Remember to use single quotes
     cout << myString << endl;
 
+    // How to get several inputs
+    string fullName;
+    cout << "Enter your full name: " << endl;
+    getline(cin, fullName);
+    cout << "Your name is: " << fullName << endl;
+
     return 0;
 }
